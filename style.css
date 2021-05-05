@@ -10,7 +10,7 @@ body {
 }
 main {
   background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-  height: 1200px;
+  height: 1000px;
 }
 #RGBcodeID {
   color: whitesmoke;
@@ -229,6 +229,7 @@ main {
   height: 150px;
   background-color: white;
   border-radius: 10%;
+  border: 3px solid white;
 }
 .colors .top .topLeft,
 .topMiddle,
