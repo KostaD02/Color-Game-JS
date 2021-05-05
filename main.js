@@ -59,10 +59,9 @@ function fillArrayWithRandomColor(array, count) {
 
 function randomNumber(count) {
   let number = 0;
-  number = Math.round(Math.random() * count);
+  number = Math.floor(Math.random() * count) + 0;
   return number;
 }
-
 function GenerateColorsOption(option) {
   if (option == "easy") {
     let myArray = [];
