@@ -1,7 +1,7 @@
 let easyCounter = 0;
 let mediumCounter = 0;
 let hardCounter = 0;
-let myAnswer = 0;
+let myAnswer;
 function modeOption(option) {
   if (option == "easy") {
     easyCounter = 1;

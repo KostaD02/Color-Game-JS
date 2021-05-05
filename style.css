@@ -255,3 +255,49 @@ main {
 .buttons {
   margin-bottom: 50px;
 }
+
+#topLeft:hover {
+  transform: rotate(45deg);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
+}
+#topMiddle:hover {
+  transform: rotate(45deg);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
+}
+#topRigth:hover {
+  transform: rotate(45deg);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
+}
+#middleLeft:hover {
+  transform: rotate(45deg);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
+}
+#middleMiddle:hover {
+  transform: rotate(45deg);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
+}
+#middleRigth:hover {
+  transform: rotate(45deg);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
+}
+#bottomLeft:hover {
+  transform: rotate(45deg);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
+}
+#bottomMiddle:hover {
+  transform: rotate(45deg);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
+}
+#bottomRigth:hover {
+  transform: rotate(45deg);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: 1s;
+}
