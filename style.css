@@ -1,4 +1,256 @@
 body {
   margin: 0px;
   padding: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+main {
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  height: 1200px;
+}
+#RGBcodeID {
+  color: whitesmoke;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+}
+.buttons {
+  display: inline-block;
+  width: 100%;
+}
+.buttons .left {
+  width: 40%;
+  float: left;
+}
+.buttons .rigth {
+  width: 60%;
+  float: right;
+}
+
+.generateColor .wrapper p {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #ffff;
+  border: 2px solid #ffff;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}
+
+.generateColor .wrapper p span {
+  position: relative;
+  z-index: 2;
+}
+
+.generateColor .wrapper p:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #01c4ff;
+  transition: all 0.35s;
+}
+
+.generateColor .wrapper p:hover {
+  color: #fff;
+}
+
+.generateColor .wrapper p:hover:after {
+  width: 100%;
+}
+.generateColor {
+  margin: auto;
+  width: 20%;
+}
+.rigthOne .wrapper p {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #ffff;
+  border: 2px solid #ffff;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}
+
+.rigthOne .wrapper p span {
+  position: relative;
+  z-index: 2;
+}
+
+.rigthOne .wrapper p:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: green;
+  transition: all 0.35s;
+}
+
+.rigthOne .wrapper p:hover {
+  color: #fff;
+}
+
+.rigthOne .wrapper p:hover:after {
+  width: 100%;
+}
+
+.rigthSecond .wrapper p {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #ffff;
+  border: 2px solid #ffff;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}
+
+.rigthSecond .wrapper p span {
+  position: relative;
+  z-index: 2;
+}
+
+.rigthSecond .wrapper p:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: orange;
+  transition: all 0.35s;
+}
+
+.rigthSecond .wrapper p:hover {
+  color: #fff;
+}
+
+.rigthSecond .wrapper p:hover:after {
+  width: 100%;
+}
+.rigthThree .wrapper p {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #ffff;
+  border: 2px solid #ffff;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}
+
+.rigthThree .wrapper p span {
+  position: relative;
+  z-index: 2;
+}
+
+.rigthThree .wrapper p:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: red;
+  transition: all 0.35s;
+}
+
+.rigthThree .wrapper p:hover {
+  color: #fff;
+}
+
+.rigthThree .wrapper p:hover:after {
+  width: 100%;
+}
+.rigthOne {
+  width: 33%;
+  display: inline-block;
+}
+.rigthSecond {
+  width: 30%;
+  display: inline-block;
+}
+.rigthThree {
+  width: 33%;
+  display: inline-block;
+}
+.generateColor .wrapper p {
+  width: 300px;
+}
+.buttons .left {
+  width: auto;
+}
+.colors .top {
+  width: 100%;
+  height: 200px;
+}
+.colors .middle {
+  width: 100%;
+  height: 200px;
+}
+.colors .bottom {
+  width: 100%;
+  height: 200px;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 10%;
+}
+.colors .top .topLeft,
+.topMiddle,
+.topRigth {
+  width: 33%;
+  display: inline-block;
+}
+.colors .middle .middleLeft,
+.middleMiddle,
+.middleRigth {
+  width: 33%;
+  display: inline-block;
+}
+.colors .bottom .bottomLeft,
+.bottomMiddle,
+.bottomRigth {
+  width: 33%;
+  display: inline-block;
+}
+.box {
+  margin-left: 150px;
+}
+.buttons {
+  margin-bottom: 50px;
 }
