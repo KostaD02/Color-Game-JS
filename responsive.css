@@ -1,0 +1,36 @@
+@media screen and (max-width: 1135px) {
+  main {
+    margin: 0px;
+  }
+
+  main .wrapper {
+    padding-top: 0px;
+    box-shadow: none;
+    border-radius: 0px;
+    grid-template-columns: 1fr;
+    row-gap: 25px;
+    height: fit-content;
+  }
+
+  main .wrapper .right {
+    row-gap: 25px;
+  }
+
+  main .wrapper .right .container .box {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  main .wrapper .right .container .box {
+    width: 75px;
+    height: 75px;
+  }
+}
+
+@media screen and (max-width:350px) {
+  main .wrapper {
+    padding: 5px;
+  }
+}
