@@ -18,5 +18,3 @@
 ## Resetting the game:
 
 1. At any time during the game, you can reset the game by clicking on the "reset" button.
-
-Live: https://kostad02.github.io/Color-Game-JS/
